@@ -1,0 +1,116 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(239, 239, 244);
+
+}
+h1,h2
+{
+    text-align: center;
+    color: rgb(35, 33, 43);
+    font-size: 3em;
+}
+form
+{
+margin: auto;
+height: 400px;
+width: 300px;
+padding: 20px ;
+background-color: rgb(30, 30, 38);
+border-radius: 18px;
+box-shadow: 5px 5px 20px 2px rgba(148,200, 200, 2);
+
+}
+
+table{
+    padding: 5% 10px;
+}
+#ichi
+{margin: 15px 10px;
+    padding: 10px 4px;
+    font-size: 20px;
+    width: 250px;
+    color: rgb(219, 224, 243);
+border-radius: 10px;
+box-shadow: 4px 3px 15px 1px rgb(214, 214, 236);
+}
+input{
+    outline: none;
+}
+input[type=button]
+{
+     font-family: sans-serif;
+     padding: 0;
+     width: 65px;
+     height: 65px;
+     font-size: 28px;
+     background-color:  rgb(30, 30, 38) ;
+     color:rgb(214, 214, 236);
+     opacity: .8;
+     border: none;
+     border-radius: 10px;
+box-shadow: 5px 5px 15px 0px rgb(214, 214, 236);
+      
+}
+
+input[type=button]:hover{
+    color:rgb(70, 70, 78);
+    box-shadow: 5px 5px 15px 0px rgba(121, 121, 122, 0.44);
+    background: rgb(30, 30, 38);
+    background:  linear-gradient(180deg,rgb(37, 150, 199), grey , 100%);
+    background-color: rgb(219, 224, 243);;
+} 
+/* tel qismiga  utkazamiz   */
+@media only screen and (max-width: 600px)
+{
+    body{
+        background-color: rgb(157, 157, 172);
+    }
+
+    h1,h2
+{
+    text-align: center;
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+}
+form {
+    margin-left: 20vw;
+    margin: top 10vh;
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(30, 30, 38);
+    border-radius: 18px;
+    box-shadow: 5px 5px 20px 2px rgb(148 200 200);
+}
+
+table{
+    padding: 5% 5px;
+}
+#ichi
+{margin: 7px 5px;
+    padding: 10px 4px;
+    font-size: 20px;
+    width: 160px;
+    color: rgb(219, 224, 243);
+border-radius: 10px;
+box-shadow: 4px 3px 15px 1px rgb(214, 214, 236);
+}
+input[type=button]
+{
+     font-family: sans-serif;
+     padding: 0;
+     width: 35px;
+     height: 35px;
+     font-size: 15px;
+     background-color:  rgb(30, 30, 38) ;
+     color:rgb(214, 214, 236);
+     opacity: .8;
+     border: none;
+     border-radius: 10px;
+box-shadow: 5px 5px 15px 0px rgb(214, 214, 236);
+      
+}
+
+}
