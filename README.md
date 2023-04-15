@@ -1,2 +1,2 @@
 <h1>Kalkulator</h1>
-  <a href="https://ks-calculator.netlify.app"/?>
+  <a href="https://ks-calculator.netlify.app">kirish </a>
