@@ -1,3 +1,2 @@
-# HTML-and-CSS-calculator
-https://ks-calculator.netlify.app/
-nimadur qilamiz
+<h1>Kalkulator<\h1>
+  <a href="https://ks-calculator.netlify.app"/?>
